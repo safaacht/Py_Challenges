@@ -9,7 +9,7 @@ elif 18 < age < 25 :
     print("Bienvenue! accées est gratuit")
 
 else:
-    reponse = input("Vous etes membre ou accompagnee d'un membre O-N :")
+    reponse = input("Vous etes membre ou accompagnee d'un membre ? (O-N) :")
 
     if reponse == "O":
         print("Bienvenue!")

@@ -18,4 +18,3 @@ langages.insert(1,"C")
 langages.remove("Java")
 langages.pop()
 print(langages,"\n ", len(langages))
-

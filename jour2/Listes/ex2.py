@@ -8,7 +8,7 @@ langages = ["Python", "Java", "JavaScript", "C++"]
 
 langages.append("PHP")
 langages.append("SQL")
-langages.insert(1,"C")
+langages.insert(2,"C")
 # print(langages)
 
 #===========

@@ -30,4 +30,5 @@ for note in notes :
     if note >= 10 :
         cpt += 1
 
-print(cpt)        
+pourcentage = (cpt / len(notes)) * 100
+print(cpt , "%6.2f" % pourcentage ,'%')        

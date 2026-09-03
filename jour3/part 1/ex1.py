@@ -23,5 +23,5 @@ with open('jour3/résumé_logs.txt' , 'w') as file :
 
     for i in messages :
         logs = len(messages[i])
-        print(i ," : ",logs)
+        contenu=file.write(f"{i} : {logs} \n")
             

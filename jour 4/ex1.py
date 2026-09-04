@@ -64,7 +64,11 @@ def affichage_caracteres() :
 def logueur_mot() :
     text = input("Entre votre text : ")
     text_splited = text.split()
+
+    # choix1
     mot_long= max(text_splited, key = len)
+    
+    # choix 2
 
     # maximum = 0
     # mot_long = ""
@@ -74,6 +78,20 @@ def logueur_mot() :
     #         mot_long = i
 
 
-    print(mot_long)
+    # print(mot_long)
 
-logueur_mot()    
+# logueur_mot()   
+
+# Demander une chaîne de caractères Ch et afficher le nombre d’occurrences de chaque caractère.
+def occurency(Ch) :
+    dic = {}
+
+    for i in Ch :
+        if i not in dic :
+            dic[i] = 1
+        else :
+            dic[i] += 1    
+
+    print(dic)
+
+occurency("artificial intelligence developer")

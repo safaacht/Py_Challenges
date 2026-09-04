@@ -58,4 +58,22 @@ def affichage_caracteres() :
     for i in text :
         print(i)
 
-affichage_caracteres()
+# affichage_caracteres()
+
+# Demander une phrase à l’utilisateur et afficher le mot le plus long de cette phrase.
+def logueur_mot() :
+    text = input("Entre votre text : ")
+    text_splited = text.split()
+    mot_long= max(text_splited, key = len)
+
+    # maximum = 0
+    # mot_long = ""
+    # for i in text_splited :
+    #     if len(i) >= maximum :
+    #         maximum = len(i)
+    #         mot_long = i
+
+
+    print(mot_long)
+
+logueur_mot()    

@@ -16,4 +16,20 @@ def factorielle(nombre) :
         print(erreur)
 
 
-factorielle(0)
+# factorielle(0)
+
+# Demander à l’utilisateur un nombre entier m et afficher sa table de multiplication de 1 à 10
+
+def multiplication(num) :
+    try :
+        if num <= 0 :
+            raise ValueError("bigger than 0")
+
+        for i in range(1,11) :
+            rslt = i * num
+            print(i , " x " , num ," = ", rslt)
+
+    except ValueError as erreur :
+        print(erreur)           
+
+multiplication(2)

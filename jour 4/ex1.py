@@ -1,4 +1,4 @@
-# Demander à l’utilisateur de saisir un nombre entier n et afficher la factorielle de ce nombre ( n! )
+#  Demander à l’utilisateur de saisir un nombre entier n et afficher la factorielle de ce nombre ( n! )
 
 def factorielle(nombre) :
     try:
@@ -49,4 +49,13 @@ def racine_carre(nbr) :
         print("plus grand que 0")          
             
 
-racine_carre(0)        
+# racine_carre(0) 
+
+# Demander une chaîne de caractères à l’utilisateur, puis afficher chaque caractère un par un.
+def affichage_caracteres() :
+    text = input("Entre votre mot/text : ")
+    
+    for i in text :
+        print(i)
+
+affichage_caracteres()

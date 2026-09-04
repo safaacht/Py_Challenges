@@ -32,4 +32,21 @@ def multiplication(num) :
     except ValueError as erreur :
         print(erreur)           
 
-multiplication(2)
+# multiplication(2)
+
+# Demander à l’utilisateur un nombre entier L et indiquer s’il s’agit d’un carré parfait.
+import math
+
+def racine_carre(nbr) :
+    if nbr > 0 :
+        rslt = math.sqrt(nbr)
+        if rslt.is_integer() :
+            print(rslt ,"c'est un carre parfait !")
+        else :
+            print("naah! ce n'est pas parfait!")   
+
+    else :
+        print("plus grand que 0")          
+            
+
+racine_carre(0)        

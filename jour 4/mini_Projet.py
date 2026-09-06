@@ -71,6 +71,23 @@ def distance_totale(itineraire) :
     for i in range(len(itineraire)-1) :
         total += distance(itineraire[i],itineraire[i+1])
 
-    print(total)    
+    return total    
 
-distance_totale(itineraire)    
+# distance_totale(itineraire)    
+
+
+#  Affichage et analyse
+
+print("\n--- Récapitulatif ---")
+
+# nombre total de villes 
+print("Nombre total de villes :", len(villes)) 
+
+# itinéraire trouvé 
+print("Itinéraire trouvé :") 
+
+for ville in itineraire: 
+    print(ville[0]) 
+
+# Distance totale 
+print("Distance totale :", distance_totale(itineraire))

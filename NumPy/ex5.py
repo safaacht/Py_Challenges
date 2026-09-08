@@ -17,5 +17,6 @@ clients[3][3] = "Safi"
 clients[5] = [6, "Ilias" , 21 , "Casablanca" , 2600]
 copy_clients[3][4] = "00000"
 # print(clients)
-print(clients[2:5])
+# print(clients[2:5])
+print(clients[:, 1:3])
 # print(copy_clients)
